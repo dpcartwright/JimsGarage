@@ -1,0 +1,32 @@
+tls-san:
+  - 192.168.178.200
+  - 192.168.178.91
+  - 192.168.178.92
+  - 192.168.178.93
+write-kubeconfig-mode: 0644
+disable:
+  - rke2-ingress-nginx
+tls-san:
+  - 192.168.178.200
+  - 192.168.178.91
+  - 192.168.178.92
+  - 192.168.178.93
+write-kubeconfig-mode: 0644
+disable:
+  - rke2-ingress-nginx
+tls-san:
+  - 192.168.178.200
+  - 192.168.178.91
+  - 192.168.178.92
+  - 192.168.178.93
+write-kubeconfig-mode: 0644
+disable:
+  - rke2-ingress-nginx
+tls-san:
+  - 192.168.178.200
+  - 192.168.178.91
+  - 192.168.178.92
+  - 192.168.178.93
+write-kubeconfig-mode: 0644
+disable:
+  - rke2-ingress-nginx

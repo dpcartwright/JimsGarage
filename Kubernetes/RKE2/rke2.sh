@@ -21,24 +21,24 @@ echo -e " \033[32;5m                                                           \
 #############################################
 
 # Version of Kube-VIP to deploy
-KVVERSION="v0.6.3"
+KVVERSION="v0.8.3"
 
 # Set the IP addresses of the admin, masters, and workers nodes
-admin=192.168.3.5
-master1=192.168.3.21
-master2=192.168.3.22
-master3=192.168.3.23
-worker1=192.168.3.24
-worker2=192.168.3.25
+admin=192.168.178.90
+master1=192.168.178.91
+master2=192.168.178.92
+master3=192.168.178.93
+worker1=192.168.178.94
+worker2=192.168.178.95
 
 # User of remote machines
-user=ubuntu
+user=root
 
 # Interface used on remotes
 interface=eth0
 
 # Set the virtual IP address (VIP)
-vip=192.168.3.50
+vip=192.168.178.200
 
 # Array of all master nodes
 allmasters=($master1 $master2 $master3)
@@ -56,7 +56,7 @@ all=($master1 $master2 $master3 $worker1 $worker2)
 allnomaster1=($master2 $master3 $worker1 $worker2)
 
 #Loadbalancer IP range
-lbrange=192.168.3.60-192.168.3.80
+lbrange=192.168.178.201-192.168.178.221
 
 #ssh certificate name variable
 certName=id_rsa
